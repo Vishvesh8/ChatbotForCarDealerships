@@ -1,5 +1,5 @@
 # Chatbot For Car Dealerships
-A NLP based chatbot which can be used at Car Dealership to answer simple queries
+A NLP based chatbot which can be used at Car Dealership to answer simple customer queries.
 
 
 # Getting Started
