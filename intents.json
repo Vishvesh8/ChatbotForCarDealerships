@@ -1,0 +1,66 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [ "Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day", "ssup", "What's up" ],
+      "responses": [ "Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [ "Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time" ],
+      "responses": [ "See you!", "Have a nice day", "Bye! Come back again soon." ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [ "Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me" ],
+      "responses": [ "Happy to help!", "Any time!", "My pleasure" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "Car_price",
+      "patterns": [ "What is the price of a used car", "What is the price of a new car", "What is the price of a unused car", "What is the cost of a used car", "How costly is a used car", "How much should I pay for a used car" ],
+      "responses": [ "Price of a new car : Rs X, Price of a used car: Rs Y.  Payment can be either through cash or card" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "Models",
+      "patterns": [ "What models are available", "What kind of cars are available", "What type of cars are available", "What car options are available" ],
+      "responses": [ "We are currently selling these models: 1) Model X 2) Model Y  3) Model Z " ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "Return_Policies",
+      "patterns": [ "What us your return policy", "what should I do if I have to return my car", "WHat if I don't live my car", "What if I want to give my car back", "What if I don't like my car", "What if I find any flaws in my car", "What if some parts don't work properly/perfectly/smoothly/satisfactorily/nicely/ well" ],
+      "responses": [ "Our return policy is as follows: xxxxxyyyyyzzzzzz" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "Features",
+      "patterns": [ "What features does this car have", "What and all does this car do", "What can this car do", "what are the specialities of this car", "give more info/details on this car" ],
+      "responses": [ "The following are the cars we have and their features: 1) Model X, Features : xxxxxyyyyyzzzzz 2) Model Y , Features : xxxxxyyyyyzzzzz 3) Model Z , Features : xxxxxyyyyyzzzzz" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "Discounts",
+      "patterns": [ "What discounts are you offering currently", "What discounts are available currently", "Can I expect some money/amount off the bill", "could you decrease the price/cost/bill a bit", "is the price/cost/bill fixed" ],
+      "responses": [ "The following cars have fixed price: Model X, Model Y, .. But certain discounts are available on the following cars: Model Z, Model A" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "Additional_Benefits",
+      "patterns": [ "What else can I expect from this price/amount", "Do I get any additional benefits", "Is there anything more I can get on this price/amount", "Can I get anything extra on this price/amount" ],
+      "responses": [ "In addition to the car of course, you get to enjoy the following benefits: 1) Lifetime membership in XYZ car repair co, 2) A free headrest, 3) etc" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": [ "Sorry, can't understand you", "Please give me more info", "Not sure I understand" ],
+      "context": [ "" ]
+    }
+
+
+  ]
+}
