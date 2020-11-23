@@ -6,7 +6,7 @@ A NLP based chatbot which can be used at Car Dealership to answer simple queries
 
 1) Git clone this repo
 2) Activate your virtual environment
-3) Run the commands in notebook.ipynb . This will create your models
+3) Run the commands in notebook.ipynb . This will create your ML model.
 4) Install streamlit in your device and run this command: streamlit run streamlitfile.py
 5) The chatbot should be working now!
 
